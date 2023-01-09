@@ -34,7 +34,7 @@ public class Main {
 
         // Enhanced For Schleife
         for (double v : werte) {
-            if (v <= (normal + toleranz) && v >= (normal - toleranz)) {
+            if (v >= (normal + toleranz) && v <= (normal - toleranz)) {
                 messfehler[z] = v;
                 z++;
             }
